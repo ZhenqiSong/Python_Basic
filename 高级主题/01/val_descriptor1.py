@@ -14,7 +14,7 @@ class CardHolder(object):
         
         def __set__(self, instance, value):
             value = value.lower().replace(' ', '_')
-            self.name = value 
+            self.name = value
     name = Name()
 
     class Age(object):
